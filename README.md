@@ -13,5 +13,5 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 7) go mod init goSmart - may not be needed, but should not hurt
 8) go install 'github.com/gorilla/mux@latest' - may not be needed, but should not hurt
 9) go run goSmart.go
-# OR 
+OR 
 10) go build goSmart.go
