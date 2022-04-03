@@ -105,10 +105,12 @@ func smartHeater(w http.ResponseWriter, r *http.Request) {
 			comingBackSoon = goingHomeBool
 		}
 		if signal == "cold" && comingBackSoon {
-			heaterSwitch = true
-			time.AfterFunc(25 * time.Minute, func() {
-				heaterSwitch = false
-			})
+			if (heaterSwitch == false) {
+				heaterSwitch = true
+				time.AfterFunc(25 * time.Minute, func() {
+					heaterSwitch = false
+				})
+			}
 			
 		}
 	} else {
