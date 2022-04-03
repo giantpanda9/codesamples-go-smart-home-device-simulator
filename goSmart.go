@@ -111,7 +111,6 @@ func smartHeater(w http.ResponseWriter, r *http.Request) {
 					heaterSwitch = false
 				})
 			}
-			
 		}
 	} else {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
