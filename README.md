@@ -10,11 +10,11 @@ Smart device source code for the https://github.com/giantpanda9/codesamples-node
 export GOPATH=$HOME/work
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 6) cd /path/to/the/folder/of/the/cloned/project
-7) go mod init goSmart - may not be needed, but should not hurt
-8) go install 'github.com/gorilla/mux@latest' - may not be needed, but should not hurt
-9) go run goSmart.go
+7) go mod init goSmart 
+8) go install 'github.com/gorilla/mux@latest' - this should download latest gorilla/mux module to the $HOME/work directory mentioned in point 5)
+9) go run goSmart.go - to run at once
 OR 
-10) go build goSmart.go
+10) go build goSmart.go - to create a binary
 
 # The questions that could be asked on the first place for this code (FAQ based on probability):
  
