@@ -11,7 +11,7 @@ export GOPATH=$HOME/work
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 6) cd /path/to/the/folder/of/the/cloned/project
 7) go mod init goSmart 
-8) go install 'github.com/gorilla/mux@latest' - this should download latest gorilla/mux module to the $HOME/work directory mentioned in point 5)
+8) go install 'github.com/gorilla/mux@latest' - this should download latest gorilla/mux module to the $HOME/work directory, which was mentioned at point 5)
 9) go run goSmart.go - to run at once
 OR 
 10) go build goSmart.go - to create a binary
