@@ -17,7 +17,7 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 9) go run goSmart.go - to run at once
 OR 
 10) go build goSmart.go - to create a binary
-11) though installation steps are pretty easy in case, if you encounter any issues with building or running for your system, I can build the module for you in a similar system or show on screenshare how this should be done or work.
+11) if you encounter any issues with building or running for your system, I can build the module for you in a similar system or show on screenshare how this should be done or work.
 
 # The questions that could be asked on the first place for this code (FAQ based on probability):
  
