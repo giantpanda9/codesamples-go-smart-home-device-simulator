@@ -7,8 +7,10 @@ Smart device source code for the https://github.com/giantpanda9/codesamples-node
 3-1) [optional] do sudo rm -rf /usr/local/go if you have other versions of Go installed - not needed for the first time installation
 4) sudo nano ~/.profile
 5) add to the end of file the following lines:
+```
 export GOPATH=$HOME/work
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+```
 6) cd /path/to/the/folder/of/the/cloned/project
 7) go mod init goSmart 
 8) go install 'github.com/gorilla/mux@latest' - this should download latest gorilla/mux module to the $HOME/work directory, which was mentioned at point 5)
